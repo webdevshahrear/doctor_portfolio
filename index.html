@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Dr. Tanvir Ahmed | Neonatal &amp; Pediatric Specialist</title>
+  <meta name="description" content="Dr. Tanvir Ahmed – Expert Neonatal &amp; Pediatric Specialist. Book your appointment today.">
+  <link rel="icon" href="./assets/images/doctor.jpg" type="image/jpeg" sizes="192x192" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <!-- =================== NAVBAR =================== -->
+  <header id="navbar" class="navbar-custom sticky-top">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+      <a href="#home" class="brand-logo">
+        <div class="brand-icon"><i class="fas fa-stethoscope"></i></div>
+        <div>
+          <div class="brand-name">Dr. Tanvir Ahmed</div>
+          <div class="brand-sub">Pediatric Specialist</div>
+        </div>
+      </a>
+
+      <nav class="d-none d-lg-flex gap-4 fw-medium">
+        <a href="#home" class="nav-link-custom">Home</a>
+        <a href="#about" class="nav-link-custom">About</a>
+        <a href="#services" class="nav-link-custom">Services</a>
+        <a href="#chamber" class="nav-link-custom">Chamber</a>
+        <a href="#contact" class="nav-link-custom">Contact</a>
+      </nav>
+
+      <div class="d-flex align-items-center gap-3">
+        <a href="#appointment" class="btn-primary-custom d-none d-sm-flex">
+          <i class="fas fa-calendar-check"></i> Book Appointment
+        </a>
+        <button class="hamburger d-lg-none" id="mobileMenuBtn">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobileMenu" class="mobile-menu d-none">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#chamber">Chamber</a>
+      <a href="#contact">Contact</a>
+      <a href="#appointment" class="mobile-cta">Book Appointment</a>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- =================== HERO =================== -->
+    <section id="home" class="hero-section">
+      <div class="hero-bg-blob blob-1"></div>
+      <div class="hero-bg-blob blob-2"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-content" data-aos="fade-right">
+          <div class="hero-badge">
+            <i class="fas fa-shield-check"></i>
+            BMDC Registered Specialist
+          </div>
+          <h1 class="hero-title">
+            Trusted Care for<br>
+            <span class="gradient-text">Your Child's Health</span>
+          </h1>
+          <p class="hero-desc">
+            Expert Neonatal &amp; Pediatric consultations with compassion, precision, and care — dedicated to the wellbeing of every child.
+          </p>
+          <div class="hero-actions">
+            <a href="tel:01819574535" class="btn-primary-custom">
+              <i class="fas fa-phone-alt"></i> Call for Serial
+            </a>
+            <a href="#chamber" class="btn-ghost-custom">
+              <i class="fas fa-map-marker-alt"></i> Chamber Details
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-number">5000+</div>
+              <div class="stat-label">Patients Treated</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-number">FCPS</div>
+              <div class="stat-label">Child Health</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap" data-aos="fade-left">
+          <div class="hero-image-bg"></div>
+          <div class="hero-image-ring"></div>
+          <img src="./assets/images/doctor.jpg" alt="Dr. Tanvir Ahmed" class="hero-img">
+          <div class="floating-card card-experience">
+            <i class="fas fa-award text-warning"></i>
+            <div>
+              <div class="fc-title">Experience</div>
+              <div class="fc-value">10+ Years</div>
+            </div>
+          </div>
+          <div class="floating-card card-status">
+            <div class="pulse-dot"></div>
+            <div id="liveStatusText">Checking...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== ABOUT =================== -->
+    <section id="about" class="section-padding bg-soft">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Who We Are</span>
+          <h2 class="section-title">About Dr. Tanvir Ahmed</h2>
+        </div>
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <p class="about-text mb-4">Dr. Tanvir Ahmed is a dedicated Neonatal &amp; Pediatric Specialist providing expert medical care for infants, children, and adolescents. His philosophy centers on preventive care, parental education, and holistic treatment.</p>
+            <p class="about-text mb-5">He is available for consultation at Banshkhali Maa-Shishu O General Hospital Ltd., offering specialized pediatric services twice a week.</p>
+
+            <div class="credentials-grid">
+              <div class="credential-card">
+                <div class="credential-icon"><i class="fas fa-hospital"></i></div>
+                <div>
+                  <div class="credential-label">Affiliation</div>
+                  <div class="credential-value">Chittagong Medical College Hospital</div>
+                </div>
+              </div>
+              <div class="credential-card">
+                <div class="credential-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div>
+                  <div class="credential-label">Degrees</div>
+                  <div class="credential-value">MBBS, BCS (Health), FCPS (Child Health)</div>
+                </div>
+              </div>
+              <div class="credential-card">
+                <div class="credential-icon"><i class="fas fa-id-card"></i></div>
+                <div>
+                  <div class="credential-label">BMDC Reg.</div>
+                  <div class="credential-value">A-76035</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-image-wrap">
+              <img src="./assets/images/doctor.jpg" alt="Dr. Tanvir Ahmed" class="about-img">
+              <div class="about-card-overlay">
+                <i class="fas fa-stethoscope"></i>
+                <span>Trusted by Thousands of Families</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== SERVICES =================== -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">What We Treat</span>
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-desc">শিশুদের জন্য বিশেষায়িত চিকিৎসা সেবা</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-baby"></i></div>
+              <h3 class="service-title">নবজাতক সেবা</h3>
+              <p class="service-desc badge-bengali">নবজাতক, শিশু ও কিশোরদের স্বাস্থ্য সেবা</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-thermometer-half"></i></div>
+              <h3 class="service-title">জ্বর ও শ্বাসকষ্ট</h3>
+              <p class="service-desc badge-bengali">জ্বর, ঠান্ডা, কাশি ও নিউমোনিয়া</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-lungs"></i></div>
+              <h3 class="service-title">শ্বাসযন্ত্রের সমস্যা</h3>
+              <p class="service-desc badge-bengali">অ্যাজমা, টনসিল ও শ্বাসকষ্ট</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-notes-medical"></i></div>
+              <h3 class="service-title">পেটের সমস্যা</h3>
+              <p class="service-desc badge-bengali">পেটে ব্যথা, বদহজম, বমি ও ডায়রিয়া</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-allergies"></i></div>
+              <h3 class="service-title">অ্যালার্জি ও চামড়া</h3>
+              <p class="service-desc badge-bengali">খিঁচুনি, অ্যালার্জি, চামড়ার রোগ</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-apple-alt"></i></div>
+              <h3 class="service-title">পুষ্টি ও বিকাশ</h3>
+              <p class="service-desc badge-bengali">পুষ্টিহীনতা ও প্রস্রাবের সমস্যা</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CHAMBER =================== -->
+    <section id="chamber" class="section-padding bg-soft">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Visit Us</span>
+          <h2 class="section-title">Chamber &amp; Timing</h2>
+        </div>
+        <div class="chamber-card">
+          <div class="chamber-info">
+            <div class="chamber-hospital-name">
+              <i class="fas fa-hospital-alt"></i>
+              <div>
+                <h3>Banshkhali Maa-Shishu Hospital</h3>
+                <p class="badge-bengali">বাঁশখালী মা-শিশু ও জেনারেল হাসপাতাল লিঃ</p>
+              </div>
+            </div>
+            <div class="chamber-detail-row">
+              <div class="chamber-detail-icon"><i class="fas fa-map-pin"></i></div>
+              <div>
+                <div>Ramdash Munsirhat, Gunagari, Banshkhali</div>
+                <div class="badge-bengali text-muted small">রামদাশ মুন্সিরহাট, গুনাগরী, বাঁশখালী</div>
+              </div>
+            </div>
+            <div class="chamber-detail-row">
+              <div class="chamber-detail-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <div class="fw-semibold badge-bengali">প্রতি মঙ্গলবার ও বৃহস্পতিবার</div>
+                <div class="badge-bengali text-muted small">বিকাল ৩:০০ টা – সন্ধ্যা ৬:০০ টা</div>
+              </div>
+            </div>
+            <div class="phone-highlight">
+              <div class="ph-label badge-bengali">সিরিয়াল / কল নম্বর</div>
+              <div class="ph-number">01819-574535</div>
+              <div class="ph-number">01976-776225</div>
+            </div>
+            <div class="chamber-actions">
+              <a href="https://maps.google.com/?q=Banskhali+Maa+O+Shishu" target="_blank" class="btn-primary-custom">
+                <i class="fas fa-directions"></i> Get Directions
+              </a>
+              <span id="liveStatusBadge" class="status-badge"></span>
+            </div>
+          </div>
+          <div class="chamber-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.2073!2d91.932748!3d22.079896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xce86080c19d2c30c!2sBanskhali%20Maa%20O%20Shishu%20General%20Hospital!5e0!3m2!1sen!2sbd!4v1790270355537"
+              class="w-100 h-100 border-0"
+              style="min-height:380px;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== TESTIMONIALS =================== -->
+    <section id="reviews" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Patient Stories</span>
+          <h2 class="section-title">Patient Testimonials</h2>
+          <p class="section-desc">ভিডিওতে আমাদের রোগীদের অভিজ্ঞতা</p>
+        </div>
+        <div class="swiper mySwiper pb-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="video-card" role="button" data-video-id="9wZA8OhR1dI">
+                <div class="video-thumb">
+                  <img src="https://img.youtube.com/vi/9wZA8OhR1dI/maxresdefault.jpg" alt="Testimonial thumbnail">
+                  <div class="play-overlay"><div class="play-btn"><i class="fas fa-play"></i></div></div>
+                </div>
+                <div class="video-meta">
+                  <p class="vm-title badge-bengali">নবজাতকের যত্নে অসাধারণ সেবা</p>
+                  <p class="vm-patient"><i class="fas fa-user-circle me-1"></i> ফারহানা আক্তার</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="video-card" role="button" data-video-id="9wZA8OhR1dI">
+                <div class="video-thumb">
+                  <img src="https://img.youtube.com/vi/9wZA8OhR1dI/maxresdefault.jpg" alt="Testimonial thumbnail">
+                  <div class="play-overlay"><div class="play-btn"><i class="fas fa-play"></i></div></div>
+                </div>
+                <div class="video-meta">
+                  <p class="vm-title badge-bengali">শিশুর জ্বর ও ঠান্ডায় দ্রুত আরোগ্য</p>
+                  <p class="vm-patient"><i class="fas fa-user-circle me-1"></i> মোঃ রাশেদ</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="video-card" role="button" data-video-id="9wZA8OhR1dI">
+                <div class="video-thumb">
+                  <img src="https://img.youtube.com/vi/9wZA8OhR1dI/maxresdefault.jpg" alt="Testimonial thumbnail">
+                  <div class="play-overlay"><div class="play-btn"><i class="fas fa-play"></i></div></div>
+                </div>
+                <div class="video-meta">
+                  <p class="vm-title badge-bengali">শিশুর শ্বাসকষ্টে বিশেষজ্ঞ চিকিৎসা</p>
+                  <p class="vm-patient"><i class="fas fa-user-circle me-1"></i> নুসরাত জাহান</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="video-card" role="button" data-video-id="9wZA8OhR1dI">
+                <div class="video-thumb">
+                  <img src="https://img.youtube.com/vi/9wZA8OhR1dI/maxresdefault.jpg" alt="Testimonial thumbnail">
+                  <div class="play-overlay"><div class="play-btn"><i class="fas fa-play"></i></div></div>
+                </div>
+                <div class="video-meta">
+                  <p class="vm-title badge-bengali">খিঁচুনি সমস্যায় বিশেষজ্ঞ পরামর্শ</p>
+                  <p class="vm-patient"><i class="fas fa-user-circle me-1"></i> সাবরিনা হক</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== APPOINTMENT =================== -->
+    <section id="appointment" class="section-padding appointment-section">
+      <div class="appt-bg-blob"></div>
+      <div class="container">
+        <div class="appointment-card">
+          <div class="appt-form-side">
+            <div class="section-header mb-4">
+              <span class="section-tag light">Book Now</span>
+              <h2 class="section-title">Request an Appointment</h2>
+            </div>
+            <form id="appointmentForm" class="appt-form">
+              <div class="form-row-2">
+                <div class="form-group-custom">
+                  <label for="patientName">Patient Name</label>
+                  <input type="text" id="patientName" placeholder="Enter patient name">
+                </div>
+                <div class="form-group-custom">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" placeholder="01XXXXXXXXX">
+                </div>
+              </div>
+              <div class="form-group-custom">
+                <label for="prefDate">Preferred Date</label>
+                <input type="date" id="prefDate">
+              </div>
+              <div class="form-group-custom">
+                <label for="notes">Symptoms / Notes</label>
+                <textarea id="notes" rows="3" placeholder="Brief description of symptoms..."></textarea>
+              </div>
+              <button type="submit" class="btn-submit-full">
+                <i class="fas fa-paper-plane me-2"></i> Send via WhatsApp
+              </button>
+            </form>
+          </div>
+          <div class="appt-whatsapp-side">
+            <div class="wa-card">
+              <div class="wa-icon"><i class="fab fa-whatsapp"></i></div>
+              <h3>Book via WhatsApp</h3>
+              <p>Click below to send a pre-filled message directly to our WhatsApp number.</p>
+              <a id="whatsappBtn" href="#" target="_blank" class="wa-btn">
+                <i class="fab fa-whatsapp me-2"></i> Open WhatsApp
+              </a>
+              <div class="wa-number">
+                <i class="fas fa-phone-alt me-2"></i> 01819-574535
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer id="contact" class="footer-section">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo mb-3">
+            <div class="brand-icon"><i class="fas fa-stethoscope"></i></div>
+            <div>
+              <div class="brand-name">Dr. Tanvir Ahmed</div>
+              <div class="brand-sub" style="color:#94a3b8;">Pediatric Specialist</div>
+            </div>
+          </div>
+          <p class="footer-desc">Dedicated to providing compassionate, expert pediatric care for every child.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-contact-list">
+            <a href="tel:01819574535"><i class="fas fa-phone-alt"></i> 01819-574535</a>
+            <a href="tel:01976776225"><i class="fas fa-phone-alt"></i> 01976-776225</a>
+            <a href="mailto:bmsg.hospital@gmail.com"><i class="fas fa-envelope"></i> bmsg.hospital@gmail.com</a>
+            <div><i class="fas fa-map-marker-alt"></i> Ramdash Munsirhat, Banshkhali</div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#chamber">Chamber</a></li>
+            <li><a href="#appointment">Book Appointment</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Disclaimer: For medical emergencies, visit the nearest hospital immediately.</p>
+        <p>© 2025 Dr. Tanvir Ahmed. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Bar -->
+  <div class="mobile-bottom-bar d-flex d-md-none">
+    <a href="tel:01819574535" class="mbb-btn call-btn">
+      <i class="fas fa-phone-alt"></i> Call
+    </a>
+    <a href="https://wa.me/8801819574535" target="_blank" class="mbb-btn wa-btn-bar">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+  </div>
+
+  <!-- Video Modal -->
+  <div id="videoModal" class="modal-overlay">
+    <div class="modal-content-box">
+      <button id="closeModalBtn" class="modal-close-btn"><i class="fas fa-times"></i></button>
+      <div class="ratio ratio-16x9 w-100">
+        <iframe id="modalIframe" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
