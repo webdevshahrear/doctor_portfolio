@@ -87,7 +87,7 @@
   /* =========================================================
      4. WhatsApp Button & Appointment Form
      ========================================================= */
-  const WHATSAPP_NUMBER = '8801819574535';
+  const WHATSAPP_NUMBER = '8801881226288';
   const defaultMsg = 'Hello Dr. Tanvir Ahmed, I would like to book an appointment.';
 
   const whatsappBtn = document.getElementById('whatsappBtn');
